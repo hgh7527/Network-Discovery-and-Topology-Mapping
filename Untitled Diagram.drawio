@@ -1,31 +1,39 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.10">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
-    <mxGraphModel dx="2068" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="776" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="07V0SJCuCP9WHB_aUPou-1" value="DC01 -dc01.sam.llc&lt;div&gt;Global Catalog&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/domain_controller.svg;" parent="1" vertex="1">
           <mxGeometry x="568.5" y="40" width="63" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="130" y="190" width="920" height="540" as="geometry" />
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyzul8AylmX92G376tSa-7" target="Dyzul8AylmX92G376tSa-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-7" value="WS01" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-7" value="&lt;div&gt;WS01&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="180" y="220" width="59.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-8" value="WS04" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
+        <mxCell id="IJr9eDOKk7wek0ZHTbyA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyzul8AylmX92G376tSa-8" target="Dyzul8AylmX92G376tSa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyzul8AylmX92G376tSa-8" value="WS04" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="180" y="520" width="59.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-9" value="WS03" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-9" value="WS03" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="180" y="420" width="59.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-10" value="WS02" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-10" value="WS02" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="180" y="321" width="59.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-11" value="WS05" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
+        <mxCell id="IJr9eDOKk7wek0ZHTbyA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyzul8AylmX92G376tSa-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="209.76470588235293" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dyzul8AylmX92G376tSa-11" value="WS05- 10.30.243.18&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="180" y="620" width="59.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-13" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
