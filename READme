@@ -1,1 +1,167 @@
 
+• Lack of Multi-Factor Authentication (MFA): No MFA was in place, making it easier
+for attackers to compromise credentials.
+• Unpatched Systems: Several systems were not up to date with the latest security
+patches, leaving them open to exploitation.
+Recommended Fixes:
+1. Immediate Actions:
+o Change all passwords across the network, with emphasis on strong password
+policies.
+o Implement Multi-Factor Authentication (MFA) for all critical systems.
+o Patch and update all systems, prioritizing those with known vulnerabilities.
+2. Long-term Fixes:
+o Establish an IR Team and Structure, to include a CISO Position.
+o Create an IR Plan
+o List your Long-Term Fixes beyond the previous 2.
+Creating an Incident Response (IR) Team: To ensure SAM LLC can respond effectively to
+future incidents, it is essential to establish a dedicated Incident Response Team. The following
+structure and budget are recommended:
+• Team Structure: (NOTE: Include Team Member Role)
+o List your team structure, Example:
+o Incident Response Manager: Oversees the team’s actions and liaises with
+executive leadership.
+• Office Location: Explain (secure? isolated? Restricted access?)
+• Budget Recommendations:
+o Personnel: Salaries for the team members. (remember this is a summary report,
+this statement alone works just fine, the IR Plan provides more explanation)
+o Tools and Software: Funding for security tools, such as IDS systems, forensic
+software, and hardware for analysis.
+o Training and Certification: Budget for ongoing training to keep the team up to
+date on the latest cybersecurity threats.
+Conclusion: The phishing attack on SAM LLC exposed several weaknesses in the company’s
+security posture. By following the recommended fixes and establishing a well-trained and
+adequately funded Incident Response Team, SAM LLC can better safeguard its network and
+data. The CEO has approved the request to establish the IR Team and its necessary resources.
+Part 2:
+Task Overview:
+Building the Incident Response Team and IR Playbook
+o After the CEO has approved the creation of the IR Team based on your Executive
+Summary Report, you will:
+▪ Create an Incident Response Plan that encompasses the items below.
+▪ Create an Incident Response Team:
+1. Design the structure of the team, including key roles (e.g., Incident
+Response Manager, Security Analysts, Forensics Experts,
+Communications Officer).
+2. Create a budget for the IR Team, covering personnel costs, tools,
+software, and training.
+3. Recommend an office location and furnishings for the team,
+ensuring it is secure and adequately equipped for responding to
+incidents. (Budget for Facility Build, What do you Need?)
+▪ Develop an Incident Response Playbook for how the IR Team will
+operate when an attack (event/incident) occurs. This playbook should
+have multiple parts and provided processes and procedures for the listed
+types of cyber-attacks.
+PART 2 CONTINUED:
+Incident Response Plan Deliverables:
+1. IR Team Creation:
+o Define roles and responsibilities for each team member involved in incident
+response (e.g., Incident Response Manager, Forensics Analyst, Security Analysts,
+Communications Officer, Hire Hancock?? Pros and Cons….).
+2. IR Team Budget:
+o Create a budget for the IR Team that covers:
+▪ Salaries for team members.
+▪ Setup costs for hardware and software.
+▪ Tools and resources necessary for response (e.g., IDS systems, forensic
+tools, cell phones, etc).
+▪ Office space and accommodations for the IR Team to work securely.
+3. IR Playbook:
+o A tactical guide for responding to specific cyber incidents. This should include:
+▪ Communication Tree: Define how information flows within the
+organization during a cyber event/incident (does it change? does it matter?
+who needs to know what and when).
+▪ Severity Model: Develop a model for categorizing the severity of events
+and incidents (e.g., low, medium, high) and determine the response actions
+for each level.
+▪ Phishing Incidents: Steps for identifying, containing, and recovering
+from phishing attacks.
+▪ Malware Discovery:
+▪ Dynamic Analysis: Analyzing malware in a controlled
+environment to understand its behavior.
+▪ Static Analysis: Examining the malware without executing it to
+look for indicators of compromise (IOCs).
+▪ DDoS (Distributed Denial of Service): Procedures for mitigating DDoS
+attacks and protecting critical systems.
+▪ Physical Protection:
+▪ Physical Controls: Measures to protect physical assets (e.g.,
+locking server rooms, using access cards).
+▪ Deterrent Controls: Measures to discourage physical breaches
+(e.g., cameras, alarms).
+▪ Preventive Controls: Implemented to physically prevent
+unauthorized access or security incidents from occurring. (locked
+doors, biometric readers, secure destruction of documents)
+▪ Incident Containment and Mitigation: Actions taken to stop the incident
+from spreading and to mitigate damage (e.g., isolating infected systems,
+blocking malicious IP addresses).
+Part 3: Panopto Video Presentation
+Task 3: Create the Video Presentation of Findings to discuss the information from Part
+1 and Part 2.
+o You need to present your overall findings from Part 1 and Part 2 to the Executive
+Leadership Team, and answer the following questions:
+1. Justification for the IR Team and Budget
+5. Why does SAM LLC need a dedicated IR Team at this time?
+6. What are the biggest cyber threats facing our company today?
+7. Have we experienced prior security incidents? What were the costs and consequences?
+8. What are the risks of not having an IR Team in place?
+9. What is the estimated return on investment (ROI) for this initiative?
+10. How does this budget compare to industry standards for companies of our size?
+2. IR Team Structure and Responsibilities
+• What roles will be included in the IR Team, and what will each person do?
+• Will this team be in-house, outsourced, or a hybrid model?
+• How will the IR Team coordinate with existing IT and security personnel?
+• What expertise do we need to hire or train for the team to be effective?
+• How will this team function during normal business operations versus an active incident?
+3. IR Budget Justification
+• How much funding is required for:
+o Salaries and personnel?
+o Security tools and technologies?
+o Training and certifications?
+o Office space and physical security improvements?
+• Are there cost-effective alternatives (e.g., outsourcing certain functions)?
+• How will the budget be spent over the next 1–3 years?
+• Are there potential cost savings from cyber insurance or regulatory incentives?
+4. IR Plan and Playbook Details
+• What types of cyber incidents are covered in the IR Plan?
+• How does the IR Playbook define response steps for common threats (phishing, malware,
+ransomware, DDoS, insider threats, etc.)?
+• What is our incident severity model, and how does it dictate response actions?
+• How does the IR Plan integrate with business continuity and disaster recovery?
+• What compliance or legal requirements does this IR Plan help us meet?
+• How do we ensure continuous improvement in our response processes?
+5. Implementation and Effectiveness
+• How soon can this IR Team be operational?
+• How will we measure the effectiveness of the IR Team?
+• How often will we conduct incident response drills or tabletop exercises?
+• How does this plan align with our overall cybersecurity strategy and risk management
+goals?
+• What metrics and KPIs will the IR Team report to the executive leadership?
+Final CEO Consideration: Answer these Final Questions
+What is the risk of doing nothing?
+What is the best-case and worst-case scenario if we move forward with this plan?
+AND FINALLY:
+➢ Why should I hire you as SAM LLCs newly appointed Chief Information Security
+Officer (CISO), and why should I implement your recommendations regarding your IR
+TEAM personnel. Why can’t I just hire my son and his buddies?
+By asking these questions, the CEO ensures that the IR initiative is well-planned, cost-effective,
+and aligned with business goals.
+This structure focuses on creating a comprehensive IR Plan, which includes detailed actions for
+specific types of incidents (IR Playbook), while considering both technical and procedural
+controls. This structure is the overall framework, and from here, you can start filling in the
+details.
+Deliverables:
+o A detailed Initial Executive Summary / Incident Response Report (2–3 pages).
+o An IR Plan that includes a proposal for the structure, budget, office
+accommodations, and playbook for the IR Team.
+o Panopto Interview discussing your plan and team with the Executive Leadership
+of SAM LLC.
+Outcome: By the end of this assignment, you will have a solid understanding of the technical
+aspects of network vulnerability analysis, along with the strategic planning necessary to create an
+effective Incident Response Plan, Team, and Playbook. You will also gain practical experience
+in organizing a team and budgeting for incident response within a corporate environment.
+Tips for Success:
+• Think critically about the role each team member will play in incident response and
+ensure that you justify the roles and responsibilities in your report.
+• When developing the IR Plan/Playbook, consider the types of attacks SAM LLC could
+face in the future and how your team can be prepared.
+• The CEO wants the IR Team to be effective, so ensure the budget is realistic and
+accounts for the tools and training needed.
+Good luck, and feel free to ask any questions if you're unsure about any part of the assignment
