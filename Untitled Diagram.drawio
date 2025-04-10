@@ -48,6 +48,9 @@
         <mxCell id="IJr9eDOKk7wek0ZHTbyA-4" value="web01 - 10.30.243.12&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
           <mxGeometry x="310" y="620" width="59.5" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="IJr9eDOKk7wek0ZHTbyA-5" value="&lt;div&gt;SRV01 - 10.30.243.14&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="460" y="620" width="59.5" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
