@@ -39,7 +39,7 @@
         <mxCell id="Dyzul8AylmX92G376tSa-13" value="Web01 - 10.30.243.12&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
           <mxGeometry x="350" y="240" width="72" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-16" value="DB01" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-16" value="DB01 - 10.30.243.13" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
           <mxGeometry x="349.6" y="490" width="50.4" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-15" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.linux;" vertex="1" parent="1">
