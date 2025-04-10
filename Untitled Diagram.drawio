@@ -36,7 +36,7 @@
         <mxCell id="Dyzul8AylmX92G376tSa-11" value="WS05- 10.30.243.18&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="180" y="620" width="59.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-13" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-13" value="Web01 - 10.30.243.12&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
           <mxGeometry x="350" y="240" width="72" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-16" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
@@ -44,9 +44,6 @@
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-15" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.linux;" vertex="1" parent="1">
           <mxGeometry x="377.2" y="532.6" width="44.8" height="44.8" as="geometry" />
-        </mxCell>
-        <mxCell id="IJr9eDOKk7wek0ZHTbyA-4" value="web01 - 10.30.243.12&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
-          <mxGeometry x="310" y="620" width="59.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IJr9eDOKk7wek0ZHTbyA-5" value="&lt;div&gt;SRV01 - 10.30.243.14&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" vertex="1" parent="1">
           <mxGeometry x="460" y="620" width="59.5" height="70" as="geometry" />
