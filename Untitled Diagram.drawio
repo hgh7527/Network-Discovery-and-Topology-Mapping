@@ -20,7 +20,7 @@
           <mxGeometry x="240" y="520" width="59.51" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-11" value="WS05- 10.30.243.18&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
-          <mxGeometry x="520.0000000000001" y="520" width="53.13" height="62.5" as="geometry" />
+          <mxGeometry x="520.0000000000001" y="527.5" width="53.13" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-13" value="Web01&amp;nbsp;&lt;div&gt;10.30.243.12&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
           <mxGeometry x="459.99999999999994" y="344" width="56" height="70" as="geometry" />
