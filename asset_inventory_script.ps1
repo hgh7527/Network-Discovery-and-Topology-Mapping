@@ -10,10 +10,13 @@ Get-LocalUser | Where-Object {$_.Enabled -eq $true } | Select-Object Name
 # Win32_ComputerSystem represents a computer system running Windows
 #
 
-# Get Installed Software & Versions
-Write-Output "`nInstalled Software"
-Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | 
-Select-Object DisplayName, DisplayVersion, Publisher | Format-Table -AutoSize
+# Get Installed Software & Versions and export to CSV
+Write-Output "`nExporting Installed Software list to current_software.csv..."
+Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* |
+Select-Object DisplayName, DisplayVersion, Publisher |
+Where-Object { $_.DisplayName -ne $null } |
+Export-Csv -Path "current_software.csv" -NoTypeInformation
+Write-Output "Installed software list saved as current_software.csv"
 
 # Check Missing Security Patches
 Write-Output "`nMissing Security Patches"
