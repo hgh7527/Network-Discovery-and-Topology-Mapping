@@ -11,7 +11,7 @@ from packaging import version
 import time
 
 NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
-API_KEY = "bd030787-166f-4141-88ac-ef9279e3f3c5"
+API_KEY = ""
 
 def is_version_vulnerable(installed_version, start_incl=None, start_excl=None,
                           end_incl=None, end_excl=None):
