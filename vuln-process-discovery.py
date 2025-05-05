@@ -166,13 +166,7 @@ def CheckOpenPorts(): #good to have but optional
 
 def VulnerabilityScan():
     #run the powershell script to inventory the software on the system
-    #compare the csv file to the known vulnerabilities list
-    return
-
-def ProcessDiscovery():
-    return
-
-def main():
+    #compare the csv file to the known vulnerabilities list from NVD
     results = scan_installed_software("current_software.csv")
     display_vulnerabilities(results)
 
@@ -181,6 +175,14 @@ def main():
         df = df[["Software", "Severity", "CVE_ID", "Score", "InstalledVersion", "VulnRange", "CPE"]]
         df.to_csv("vulnerability_report_filtered.csv", index=False)
         print("\n📝 Filtered results saved to vulnerability_report_filtered.csv")
+    return
+
+def ProcessDiscovery():
+    return
+
+def main():
+    VulnerabilityScan()
+    
     return
 
 if __name__ == "__main__":
