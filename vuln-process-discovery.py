@@ -290,7 +290,7 @@ def ProcessDiscovery():
     return
 
 def main():
-    #VulnerabilityScan()
+    VulnerabilityScan()
     detect_weird_parents()
     detect_processes_in_suspicious_paths()
     detect_networked_processes()
