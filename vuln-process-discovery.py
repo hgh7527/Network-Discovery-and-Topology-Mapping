@@ -9,6 +9,8 @@ import pandas as pd
 import requests
 from packaging import version
 import time
+import io
+import psutil
 
 NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 API_KEY = ""
@@ -133,7 +135,6 @@ def display_vulnerabilities(vuln_list):
 
     print(f"\n🔒 Total vulnerabilities with CVSS score ≥ 5.0: {total}")
 
-
 def scan_installed_software(csv_path):
     if not os.path.exists(csv_path):
         print(f"❌ File not found: {csv_path}")
@@ -161,6 +162,114 @@ def scan_installed_software(csv_path):
 
     return all_results
 
+def detect_weird_parents():
+    suspicious = []
+
+    for proc in psutil.process_iter(['pid', 'name', 'ppid']):
+        try:
+            parent = psutil.Process(proc.info['ppid']).name()
+            if proc.info['name'].lower() in ['cmd.exe', 'powershell.exe', 'wscript.exe']:
+                if parent.lower() not in ['explorer.exe', 'services.exe']:
+                    suspicious.append((proc.info['name'], proc.pid, parent))
+        except (psutil.NoSuchProcess, psutil.AccessDenied):
+            continue
+
+    if not suspicious:
+        print("✅ No suspicious parent-child processes detected.")
+    else:
+        print("⚠️ Suspicious parent-child process relationships detected:")
+        for name, pid, parent in suspicious:
+            print(f"🔹 {name} (PID: {pid}) — Parent: {parent}")
+    return suspicious
+
+def detect_processes_in_suspicious_paths():
+    suspicious = []
+
+    for proc in psutil.process_iter(['pid', 'name', 'exe']):
+        try:
+            exe = proc.info['exe']
+            if exe and any(s in exe.lower() for s in ['\\appdata\\', '\\temp\\', '\\downloads\\']):
+                suspicious.append((proc.info['name'], proc.pid, exe))
+        except (psutil.AccessDenied, psutil.NoSuchProcess):
+            continue
+
+    if not suspicious:
+        print("✅ No suspicious process paths detected.")
+    else:
+        print("⚠️ Processes running from suspicious directories:")
+        for name, pid, exe in suspicious:
+            print(f"🔹 {name} (PID: {pid})")
+            print(f"    Path: {exe}")
+    return suspicious
+
+def detect_networked_processes():
+    net_procs = set()
+
+    for conn in psutil.net_connections(kind='inet'):
+        if conn.pid:
+            try:
+                proc = psutil.Process(conn.pid)
+                net_procs.add((proc.name(), conn.pid, conn.laddr, conn.raddr))
+            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                continue
+
+    if not net_procs:
+        print("✅ No networked processes detected.")
+    else:
+        print("~~~ Networked processes ~~~")
+        for name, pid, laddr, raddr in net_procs:
+            print(f"🔹 {name} (PID: {pid})")
+            print(f"    Local Address: {laddr}")
+            print(f"    Remote Address: {raddr if raddr else 'None'}")
+
+    return list(net_procs)
+
+def detect_long_running_scripts(min_seconds=600):
+    suspicious = []
+
+    for proc in psutil.process_iter(['pid', 'name', 'create_time']):
+        try:
+            if proc.info['name'].lower() in ['python.exe', 'wscript.exe', 'powershell.exe']:
+                # Calculate how long the process has been running
+                runtime = time.time() - proc.info['create_time']
+                if runtime > min_seconds:
+                    suspicious.append((proc.info['name'], proc.pid, int(runtime)))
+        except (psutil.NoSuchProcess, psutil.AccessDenied):
+            continue
+
+    if not suspicious:
+        print("✅ No long-running scripts detected.")
+    else:
+        print("⚠️ Long-running script interpreters detected:")
+        for name, pid, runtime in suspicious:
+            mins = runtime // 60
+            print(f"🔹 {name} (PID: {pid}) - Running for {mins} minutes")
+
+    return suspicious
+
+
+def run_sigcheck(sigcheck_path="C:\\Tools\\Sysinternals\\sigcheck.exe"):
+    try:
+        command = [sigcheck_path, "-accepteula", "-u", "-e"]
+        result = subprocess.run(command, capture_output=True, text=True)
+
+        if result.returncode != 0:
+            print("❌ sigcheck failed:", result.stderr)
+            return
+
+        print("~~~sigcheck output:~~~")
+        print(result.stdout)
+        if "No matching" in result.stdout:
+            print("✅ No issues found.")
+            return
+        else:
+            print("❌ Issues found.")
+            print(result.stdout)
+            return
+
+    except Exception as e:
+        print(f"❌ Python error: {e}")
+
 def CheckOpenPorts(): #good to have but optional
     return
 
@@ -181,8 +290,13 @@ def ProcessDiscovery():
     return
 
 def main():
-    VulnerabilityScan()
-    
+    #VulnerabilityScan()
+    detect_weird_parents()
+    detect_processes_in_suspicious_paths()
+    detect_networked_processes()
+    detect_long_running_scripts()
+    run_sigcheck()
+
     return
 
 if __name__ == "__main__":
