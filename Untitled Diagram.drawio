@@ -1,22 +1,28 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.1">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
-    <mxGraphModel dx="1864" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="07V0SJCuCP9WHB_aUPou-1" value="DC01 -dc01.sam.llc&lt;div&gt;Global Catalog&lt;/div&gt;&lt;div&gt;10.30.243.10&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/domain_controller.svg;" parent="1" vertex="1">
           <mxGeometry x="304.2" y="345" width="48.3" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-7" value="&lt;div&gt;WS01&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
+        <mxCell id="IiKWSuY87YVJkNZZZcFY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyzul8AylmX92G376tSa-7" target="Dyzul8AylmX92G376tSa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyzul8AylmX92G376tSa-7" value="&lt;div&gt;WS01&lt;/div&gt;&lt;div&gt;10.30.243.11&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="20" y="361.5" width="59.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-8" value="WS04" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-8" value="WS04&lt;div&gt;&amp;nbsp;10.30.243.16&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="190" y="670" width="59.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-9" value="WS03" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
+        <mxCell id="Dyzul8AylmX92G376tSa-9" value="WS03&lt;div&gt;10.30.243.17&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="90" y="590" width="59.51" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Dyzul8AylmX92G376tSa-10" value="WS02" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
+        <mxCell id="IiKWSuY87YVJkNZZZcFY-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dyzul8AylmX92G376tSa-10" target="Dyzul8AylmX92G376tSa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dyzul8AylmX92G376tSa-10" value="WS02&lt;div&gt;10.30.243.15&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
           <mxGeometry x="50" y="480" width="59.51" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Dyzul8AylmX92G376tSa-11" value="WS05- 10.30.243.18&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/workstation_client.svg;" parent="1" vertex="1">
@@ -107,7 +113,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IiKWSuY87YVJkNZZZcFY-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="190" width="660" height="620" as="geometry" />
+          <mxGeometry x="10" y="180" width="660" height="620" as="geometry" />
         </mxCell>
         <mxCell id="J7TMBYNLolA9SviLK6Tb-6" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="288.6599999999999" y="150" width="70" height="60" as="geometry" />
